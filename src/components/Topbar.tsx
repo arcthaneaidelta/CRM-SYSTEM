@@ -94,10 +94,10 @@ export default function Topbar({ title }: { title: string }) {
         {/* User */}
         <button className="flex items-center gap-2.5 rounded-xl px-3 py-2 bg-white/4 border border-white/8 hover:bg-white/8 transition-all cursor-pointer">
           <div className="h-7 w-7 rounded-lg bg-gradient-to-br from-indigo-500 to-violet-600 flex items-center justify-center text-[11px] font-bold text-white">
-            SC
+            JO
           </div>
           <div className="hidden sm:block text-left">
-            <p className="text-xs font-medium text-white leading-none">Sarah Chen</p>
+            <p className="text-xs font-medium text-white leading-none">Jonathan</p>
             <p className="text-[10px] text-white/35 mt-0.5">Admin</p>
           </div>
           <ChevronDown size={12} className="text-white/30 hidden sm:block" />

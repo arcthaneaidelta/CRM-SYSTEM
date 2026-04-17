@@ -27,7 +27,7 @@ export const mockActivityFeed = [
 
 export const mockDeals = [
   {
-    id: 'd1', title: 'Arcturus Holdings', value: 48000, stage: 'qualified', owner: 'Sarah Chen',
+    id: 'd1', title: 'Arcturus Holdings', value: 48000, stage: 'qualified', owner: 'Jonathan',
     company: 'Arcturus Holdings LLC', contact: 'Michael Torres', email: 'mtorres@arcturus.com',
     probability: 85, notes: 'CFO interested in full-service package', daysInStage: 3,
   },
@@ -37,7 +37,7 @@ export const mockDeals = [
     probability: 65, notes: 'Reviewing proposal. Follow up Thursday.', daysInStage: 7,
   },
   {
-    id: 'd3', title: 'Vertex Solutions', value: 36000, stage: 'discovery', owner: 'Sarah Chen',
+    id: 'd3', title: 'Vertex Solutions', value: 36000, stage: 'discovery', owner: 'Jonathan',
     company: 'Vertex Solutions Inc', contact: 'David Kim', email: 'dkim@vertex.com',
     probability: 40, notes: 'Initial call done. Needs and assessment booked.', daysInStage: 2,
   },
@@ -57,7 +57,7 @@ export const mockDeals = [
     probability: 55, notes: 'Warm lead from referral.', daysInStage: 4,
   },
   {
-    id: 'd7', title: 'Zenith Corp', value: 95000, stage: 'proposal', owner: 'Sarah Chen',
+    id: 'd7', title: 'Zenith Corp', value: 95000, stage: 'proposal', owner: 'Jonathan',
     company: 'Zenith Corporation', contact: 'Alex Rivera', email: 'arivera@zenith.com',
     probability: 70, notes: 'Proposal sent. Awaiting board approval.', daysInStage: 9,
   },

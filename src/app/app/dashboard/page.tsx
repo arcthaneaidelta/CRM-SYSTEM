@@ -40,7 +40,7 @@ export default function DashboardPage() {
       {/* Welcome banner */}
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-xl font-semibold text-white">Good afternoon, Sarah 👋</h2>
+          <h2 className="text-xl font-semibold text-white">Good afternoon, Jonathan 👋</h2>
           <p className="text-sm text-white/35 mt-1">Here&apos;s your firm&apos;s performance overview for April 2026</p>
         </div>
         <div className="flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-medium" style={{ background: 'rgba(34,197,94,0.08)', border: '1px solid rgba(34,197,94,0.2)', color: '#4ade80' }}>
