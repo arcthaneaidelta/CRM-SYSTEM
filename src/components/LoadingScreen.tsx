@@ -85,7 +85,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
           key="loader"
           initial={{ opacity: 1 }}
           exit={{ opacity: 0, scale: 1.04 }}
-          transition={{ duration: 0.6, ease: [0.25, 0, 0, 1] }}
+          transition={{ duration: 0.6, ease: [0.25, 0, 0, 1] as [number, number, number, number] }}
           className="fixed inset-0 z-[9999] flex flex-col items-center justify-center overflow-hidden"
           style={{ background: '#08080f' }}
         >
@@ -133,7 +133,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, ease: [0.25, 0, 0, 1] }}
+            transition={{ duration: 0.7, ease: [0.25, 0, 0, 1] as [number, number, number, number] }}
             className="relative z-10 flex flex-col items-center gap-8 w-full max-w-sm px-8"
           >
             <div className="flex items-center gap-3">
